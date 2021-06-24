@@ -42,7 +42,26 @@
 </defs></svg>
             </a>
           </div>
-        
+        <script>!(function () {
+          let e = document.createElement("script"),
+            t = document.head || document.getElementsByTagName("head")[0];
+          (e.src =
+            "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+            // Replace 1.x.x with the version that you want
+            (e.async = !0),
+            (e.onload = () => {
+              window.WebChat.default(
+                {
+                  initPayload: '/greet',
+                  customData: { language: "en" },
+                  socketUrl: "https://caranguyen.github.io./",
+                },
+                null
+              );
+            }),
+            t.insertBefore(e, t.firstChild);
+        })();
+        </script>
           <div class="u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 20px;">Home</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="About.html" style="padding: 10px 20px;">About</a>
@@ -63,26 +82,6 @@
           </div>
         </nav>
       </div></header>
-      <script>!(function () {
-          let e = document.createElement("script"),
-            t = document.head || document.getElementsByTagName("head")[0];
-          (e.src =
-            "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
-            // Replace 1.x.x with the version that you want
-            (e.async = !0),
-            (e.onload = () => {
-              window.WebChat.default(
-                {
-                  initPayload: '/greet',
-                  customData: { language: "en" },
-                  socketUrl: "https://caranguyen.github.io./",
-                },
-                null
-              );
-            }),
-            t.insertBefore(e, t.firstChild);
-        })();
-        </script>
     <section class="u-align-right u-clearfix u-image u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-section-1" id="carousel_e469">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-custom-font u-font-playfair-display u-text u-text-body-alt-color u-text-1">Find your answer</h2>
