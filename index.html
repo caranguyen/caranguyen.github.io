@@ -30,6 +30,26 @@
     <meta property="og:url" content="index.html">
   </head>
   <body data-home-page="Home.html" data-home-page-title="Home" class="u-body"><header class="u-clearfix u-header u-header" id="sec-2a72"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+    <script>!(function () {
+          let e = document.createElement("script"),
+            t = document.head || document.getElementsByTagName("head")[0];
+          (e.src =
+            "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+            // Replace 1.x.x with the version that you want
+            (e.async = !0),
+            (e.onload = () => {
+              window.WebChat.default(
+                {
+                  initPayload: '/greet',
+                  customData: { language: "en" },
+                  socketUrl: "https://caranguyen.github.io./",
+                },
+                null
+              );
+            }),
+            t.insertBefore(e, t.firstChild);
+        })();
+        </script>
         <a href="https://nicepage.com" class="u-image u-logo u-image-1">
           <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
         </a>
@@ -42,26 +62,7 @@
 </defs></svg>
             </a>
           </div>
-        <script>!(function () {
-          let e = document.createElement("script"),
-            t = document.head || document.getElementsByTagName("head")[0];
-          (e.src =
-            "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
-            // Replace 1.x.x with the version that you want
-            (e.async = !0),
-            (e.onload = () => {
-              window.WebChat.default(
-                {
-                  initPayload: '/greet',
-                  customData: { language: "en" },
-                  socketUrl: "http://localhost:5005",
-                },
-                null
-              );
-            }),
-            t.insertBefore(e, t.firstChild);
-        })();
-        </script>
+        
           <div class="u-nav-container">
             <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 20px;">Home</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="About.html" style="padding: 10px 20px;">About</a>
