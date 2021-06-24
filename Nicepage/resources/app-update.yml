@@ -1,0 +1,5 @@
+provider: generic
+url: 'https://get.nicepage.com'
+updaterCacheDirName: nicepage-updater
+publisherName:
+  - Artisteer Ltd
