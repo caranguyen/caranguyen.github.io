@@ -30,26 +30,6 @@
     <meta property="og:url" content="index.html">
   </head>
   <body data-home-page="Home.html" data-home-page-title="Home" class="u-body"><header class="u-clearfix u-header u-header" id="sec-2a72"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-    <script>!(function () {
-          let e = document.createElement("script"),
-            t = document.head || document.getElementsByTagName("head")[0];
-          (e.src =
-            "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
-            // Replace 1.x.x with the version that you want
-            (e.async = !0),
-            (e.onload = () => {
-              window.WebChat.default(
-                {
-                  initPayload: '/greet',
-                  customData: { language: "en" },
-                  socketUrl: "https://caranguyen.github.io./",
-                },
-                null
-              );
-            }),
-            t.insertBefore(e, t.firstChild);
-        })();
-        </script>
         <a href="https://nicepage.com" class="u-image u-logo u-image-1">
           <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
         </a>
@@ -83,6 +63,26 @@
           </div>
         </nav>
       </div></header>
+      <script>!(function () {
+          let e = document.createElement("script"),
+            t = document.head || document.getElementsByTagName("head")[0];
+          (e.src =
+            "https://cdn.jsdelivr.net/npm/rasa-webchat@1.x.x/lib/index.js"),
+            // Replace 1.x.x with the version that you want
+            (e.async = !0),
+            (e.onload = () => {
+              window.WebChat.default(
+                {
+                  initPayload: '/greet',
+                  customData: { language: "en" },
+                  socketUrl: "https://caranguyen.github.io./",
+                },
+                null
+              );
+            }),
+            t.insertBefore(e, t.firstChild);
+        })();
+        </script>
     <section class="u-align-right u-clearfix u-image u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xs u-section-1" id="carousel_e469">
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-custom-font u-font-playfair-display u-text u-text-body-alt-color u-text-1">Find your answer</h2>
